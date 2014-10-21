@@ -1,0 +1,7 @@
+  Hello $firstnam $lastname  Welcome to Velocity!
+  
+  
+    #foreach( $pet in $petList )
+    $pet.name for only $pet.price
+  #end
+   Call Today!
